@@ -39,9 +39,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>oAqTU1RBUwE=</data>
+					<data>
+					oAqTU1RBUwE=
+					</data>
 					<key>Replace</key>
-					<data>oAqRCv8L//8=</data>
+					<data>
+					oAqRCv8L//8=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -49,9 +53,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>MTdQWFNYFDNf</data>
+					<data>
+					MTdQWFNYFDNf
+					</data>
 					<key>Replace</key>
-					<data>MTdQWFNYFDNY</data>
+					<data>
+					MTdQWFNYFDNY
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -59,9 +67,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0RTTQ==</data>
+					<data>
+					X0RTTQ==
+					</data>
 					<key>Replace</key>
-					<data>WERTTQ==</data>
+					<data>
+					WERTTQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -69,9 +81,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -79,9 +95,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SF9FQw==</data>
+					<data>
+					SF9FQw==
+					</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>
+					RUNfXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -89,9 +109,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1BUUwE=</data>
+					<data>
+					X1BUUwE=
+					</data>
 					<key>Replace</key>
-					<data>WlBUUwE=</data>
+					<data>
+					WlBUUwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -99,9 +123,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1dBSwE=</data>
+					<data>
+					X1dBSwE=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwE=</data>
+					<data>
+					WldBSwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -109,11 +137,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1NUQQ==</data>
+					<data>
+					X1NUQQ==
+					</data>
 					<key>Replace</key>
-					<data>WFNUQQ==</data>
+					<data>
+					WFNUQQ==
+					</data>
 					<key>TgtBridge</key>
-					<data>R1BJMA==</data>
+					<data>
+					R1BJMA==
+					</data>
 				</dict>
 			</array>
 		</dict>
@@ -187,7 +221,7 @@
 			<key>AFGLowPowerState</key>
 			<true/>
 			<key>Inject</key>
-			<string>NO</string>
+			<string>No</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -206,70 +240,94 @@
 				<string>32MB BIOS, 19MB framebuffer, 9MB cursor bytes (credit RehabMan)</string>
 				<key># Note1</key>
 				<string> no HDMI example in CoffeeLake, flags 86090000 seen in CannonLake?</string>
-				<key>## @0 LVDS-&gt;DP</key>
-				<string></string>
-				<key>## @1 HDMI</key>
-				<string></string>
-				<key>## @2 HDMI</key>
-				<string></string>
-				<key>## @3 HDMI</key>
-				<string></string>
 				<key>#2 0204-&gt;0306</key>
 				<string>0x3e9b0000, 0306 instead of 0204, HDMI</string>
 				<key>#2 framebuffer-con2-alldata</key>
-				<data>AwYIAAAEAADHAwAA</data>
+				<data>
+				AwYIAAAEAADHAwAA
+				</data>
 				<key>#2 framebuffer-con2-enable</key>
 				<integer>1</integer>
 				<key>#3 framebuffer-con1-alldata</key>
-				<data>/wAAAAEAAAAgAAAA/wAAAAEAAAAgAAAA</data>
+				<data>
+				/wAAAAEAAAAgAAAA/wAAAAAQAAACAAAA
+				</data>
 				<key>#3 framebuffer-con1-enable</key>
 				<integer>1</integer>
 				<key>#3 no external</key>
 				<string>0x3e9b0000, eliminate all external ports (0105 and 0204)</string>
 				<key>#AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
-				<key>#AAPL00,override-no-edid</key>
-				<data></data>
+				<data>
+				AACbPg==
+				</data>
 				<key>#enable-cfl-backlight-fix </key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>#framebuffer-con0-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con0-type</key>
-				<data>AAQAAA==</data>
+				<data>
+				AAQAAA==
+				</data>
 				<key>#framebuffer-con1-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con1-flags</key>
-				<data>hwEAAA==</data>
+				<data>
+				hwEAAA==
+				</data>
 				<key>#framebuffer-con1-pipe</key>
-				<data>EgAAAA==</data>
+				<data>
+				EgAAAA==
+				</data>
 				<key>#framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>#framebuffer-con2-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con2-flags</key>
-				<data>hwEAAA==</data>
+				<data>
+				hwEAAA==
+				</data>
 				<key>#framebuffer-con2-pipe</key>
-				<data>EgAAAA==</data>
+				<data>
+				EgAAAA==
+				</data>
 				<key>#framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>#framebuffer-con3-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con3-flags</key>
-				<data>hwEAAA==</data>
+				<data>
+				hwEAAA==
+				</data>
 				<key>#framebuffer-con3-pipe</key>
-				<data>EgAAAA==</data>
+				<data>
+				EgAAAA==
+				</data>
 				<key>#framebuffer-con3-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>#framebuffer-fbmem</key>
-				<data>AACQAA==</data>
+				<data>
+				AACQAA==
+				</data>
 				<key>#framebuffer-patch-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AAAwAQ==
+				</data>
 				<key>#hda-gfx</key>
 				<string>onboard-1</string>
 				<key>AAPL,ig-platform-id</key>
-				<data>CQClPg==</data>
+				<data>
+				CQClPg==
+				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device_type</key>
@@ -279,10 +337,10 @@
 			</dict>
 			<key>PciRoot(0)/Pci(0x1f,3)</key>
 			<dict>
-				<key>#PinConfigurations</key>
-				<data></data>
 				<key>#hda-gfx</key>
 				<string>onboard-1</string>
+				<key>#layout-id</key>
+				<integer>47</integer>
 				<key>#no-controller-patch</key>
 				<integer>1</integer>
 				<key>layout-id</key>
@@ -372,9 +430,13 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>ILniAAAADzA=</data>
+				<data>
+				ILniAAAADzA=
+				</data>
 				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
+				<data>
+				ILniAAAAkJA=
+				</data>
 			</dict>
 		</array>
 		<key>PanicNoKextDump</key>
