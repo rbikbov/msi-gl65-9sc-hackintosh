@@ -133,6 +133,18 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>Rename TPD0._CRS to XCRS, for VoodooI2C</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X0NSUw==</data>
+					<key>Replace</key>
+					<data>WENSUw==</data>
+					<key>TgtBridge</key>
+					<data>VFBEMA==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change _STA to XSTA, for VoodooI2C</string>
 					<key>Disabled</key>
 					<false/>
@@ -147,6 +159,20 @@
 					<key>TgtBridge</key>
 					<data>
 					R1BJMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change USTP to XSTP, for VoodooI2C</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					VVNUUAg=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUUAg=
 					</data>
 				</dict>
 			</array>
@@ -197,7 +223,7 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>#DefaultVolume</key>
+		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>-cdfon igfxcflbklt=1 nv_disable=1</string>
@@ -476,6 +502,34 @@
 				<data>
 				g/k/Dw==
 				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2C</string>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2CController</string>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+				<key>InfoPlistPatch</key>
+				<true/>
 			</dict>
 		</array>
 		<key>PanicNoKextDump</key>
