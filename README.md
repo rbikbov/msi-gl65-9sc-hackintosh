@@ -6,7 +6,7 @@
 | :-------- | :------------------ | :------------- | :------------------ |
 | Processor | Intel Core i5-9300H | Graphics       | UHD Graphics 630    |
 | Memory    | 2667MHz DDR4 2x8GB  | OS Disk        | WDC PC SN520 NVMe   |
-| Audio     | Realtek ALC269      | WiFi/Bluetooth | BCM43602            |
+| Audio     | Realtek ALC269      | WiFi/Bluetooth | Intel 9560NGW       |
 
 ## TODO:
 - [x] ~~full disabling discrete GPU (GTX 1650) after wake up (light indicator in power button must be white instead of yellow)~~  
