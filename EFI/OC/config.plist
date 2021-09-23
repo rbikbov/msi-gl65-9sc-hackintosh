@@ -439,6 +439,41 @@
 				<key>class-code</key>
 				<data>/////w==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
+			<dict>
+				<key>ec-device</key>
+				<string>generic</string>
+				<key>fan-count</key>
+				<integer>2</integer>
+				<key>fan0-addr</key>
+				<integer>204</integer>
+				<key>fan0-size</key>
+				<integer>2</integer>
+				<key>fan0-big</key>
+				<integer>0</integer>
+				<key>fan0-inverse</key>
+				<integer>0</integer>
+				<key>fan0-mul</key>
+				<integer>1</integer>
+				<key>fan0-div</key>
+				<integer>1</integer>
+				<key>fan0-dividend</key>
+				<data>74B30</data>
+				<key>fan1-addr</key>
+				<integer>202</integer>
+				<key>fan1-size</key>
+				<integer>2</integer>
+				<key>fan1-big</key>
+				<integer>0</integer>
+				<key>fan1-inverse</key>
+				<integer>0</integer>
+				<key>fan1-mul</key>
+				<integer>1</integer>
+				<key>fan1-div</key>
+				<integer>1</integer>
+				<key>fan1-dividend</key>
+				<data>74B30</data>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
