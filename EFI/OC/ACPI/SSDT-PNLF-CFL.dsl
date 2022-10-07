@@ -1,26 +1,26 @@
 /*
  * Intel ACPI Component Architecture
- * AML/ASL+ Disassembler version 20200110 (64-bit version)
- * Copyright (c) 2000 - 2020 Intel Corporation
+ * AML/ASL+ Disassembler version 20180427 (64-bit version)(RM)
+ * Copyright (c) 2000 - 2018 Intel Corporation
  * 
- * Disassembling to symbolic ASL+ operators
+ * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of iASL0jBRwR.aml, Sat Sep 18 17:10:35 2021
+ * Disassembly of SSDT-PNLF-CFL.aml, Wed Oct  5 14:16:27 2022
  *
  * Original Table Header:
  *     Signature        "SSDT"
  *     Length           0x0000007D (125)
  *     Revision         0x02
- *     Checksum         0x84
- *     OEM ID           "ACDT"
+ *     Checksum         0xB7
+ *     OEM ID           "DRTNIA"
  *     OEM Table ID     "PNLFCFL"
  *     OEM Revision     0x00000000 (0)
  *     Compiler ID      "INTL"
- *     Compiler Version 0x20190509 (538510601)
+ *     Compiler Version 0x20200925 (538970405)
  */
-DefinitionBlock ("", "SSDT", 2, "ACDT", "PNLFCFL", 0x00000000)
+DefinitionBlock ("", "SSDT", 2, "DRTNIA", "PNLFCFL", 0x00000000)
 {
-    External (_SB_.PCI0.GFX0, DeviceObj)
+    External (_SB_.PCI0.GFX0, DeviceObj)    // (from opcode)
 
     Device (_SB.PCI0.GFX0.PNLF)
     {
