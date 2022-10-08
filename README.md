@@ -27,9 +27,10 @@
 
 
 ## Useful apps
-Multitouch
-iStatMenus
-NTFS for Mac (Paragon)
-SpeakerAMP
-Wineskin
-Android File Transfer
+- Multitouch  
+- iStatMenus  
+- NTFS for Mac (Paragon)  
+- SpeakerAMP  
+- Wineskin  
+- Android File Transfer  
+- SoundSource  
