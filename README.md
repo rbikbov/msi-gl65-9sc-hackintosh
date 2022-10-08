@@ -18,7 +18,7 @@
 - [ ] update OpenCore and kexts  
 - [ ] clear config.plist  
 - [ ] recheck all SSDTs  
-- [ ] fix HDMI audio  
+- [x] ~~fix HDMI audio~~  
 
 ## FANs speed related info
 
