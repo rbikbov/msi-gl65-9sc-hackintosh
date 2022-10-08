@@ -393,7 +393,7 @@
 				<key>fan0-div</key>
 				<integer>1</integer>
 				<key>fan0-dividend</key>
-				<data>74B30</data>
+				<data>dLM=</data>
 				<key>fan1-addr</key>
 				<integer>202</integer>
 				<key>fan1-size</key>
@@ -407,7 +407,7 @@
 				<key>fan1-div</key>
 				<integer>1</integer>
 				<key>fan1-dividend</key>
-				<data>74B30</data>
+				<data>dLM=</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
