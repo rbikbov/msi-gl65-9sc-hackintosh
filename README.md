@@ -34,3 +34,16 @@
 - Wineskin  
 - Android File Transfer  
 - SoundSource  
+- CleanMyMac  
+
+
+## Useful utils
+- [VoltageShift](https://github.com/zspherez/VoltageShift)  
+  My undervoltage settings
+  ```
+  ./voltageshift offset <CPU> <GPU> <CPUCache> <SystemAgent> <Analogy I/O> <Digital I/O>
+  ./voltageshift offset -120 -75 -120 0 0 0
+
+  sudo ./voltageshift buildlaunchd <CPU> <GPU> <CPUCache> <SA> <AI/O> <DI/O> <turbo> <pl1> <pl2> <remain> <UpdateMins (0 only apply at bootup)>
+  sudo ./voltageshift buildlaunchd -120 -75 -120 0 0 0 1 -1 -1 1 30
+  ```
